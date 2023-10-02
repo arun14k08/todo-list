@@ -1,1 +1,1 @@
-# A todo list app using local storage
+A todo list app using local storage
