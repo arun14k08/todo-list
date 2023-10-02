@@ -1,0 +1,109 @@
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+header{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+.form-container{
+    display: flex; 
+    width: 100%;
+    /* background-color: green; */
+    justify-content: center;
+}
+
+form{
+    width: 50%;
+    /* background-color: red; */
+}
+.input-container{
+    width: 100%;
+    /* background-color: blue; */
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+label{
+    display: inline-block;
+    width: 200px;
+}
+input{
+    width: 50%;
+    margin-right: 0;
+}
+textarea{
+    width: 50%;
+}
+form button[type="submit"]{
+    display: block;
+    width: 50%;
+    height: 25px;
+    outline: none;
+    border: none;
+    background-color: #ccc;
+    margin: 0 auto  0 auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#list{
+    width: 75%;
+    min-height:200px;
+    margin: 0 auto;
+    /* background-color: blue; */
+    padding-top: 15px;
+    text-align: center;
+}
+#list > p{
+    font-size:1.25rem;
+}
+.ul-container{
+    margin: 0 auto;
+    width: 60%;
+    /* background-color: red; */
+}
+
+#list ul{
+    list-style-type: none;
+}
+#list ul li {
+    text-transform: capitalize;
+}
+li{
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+li p{
+    margin:2px auto 0 0;
+}
+li button{
+    display: block;
+    width: 64px;
+    height: 25px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.delete-btn{
+    background-color: lightgoldenrodyellow;
+    border: 2px solid red;
+    color: red;
+}
+.edit-btn{
+    background-color: lightgoldenrodyellow;
+    border: 2px solid greenyellow;
+    color: green;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>MY TASKS</h1>
+    </header>
+    <main>
+      <div class="form-container">
+        <form action="">
+          <div class="input-container">
+            <label for="todo-name">Name of the Task:</label>
+            <input type="text" name="todo-name" />
+          </div>
+          <div class="input-container">
+            <label for="todo-note">Add a Note:</label>
+            <textarea name="todo-note" id="" cols="21" rows="7"></textarea>
+          </div>
+          <button type="submit">Add</button>
+        </form>
+      </div>
+      <section id="list">
+        <p id="status">5 of 10 todo are Remaining.</p>
+        <div class="ul-container">
+          <ul>
+            <li>
+              <p>clean the room</p>
+              <button class="edit-btn">Edit</button>
+              <button class="delete-btn">Delete</button>
+            </li>
+            <li>
+              <p>buy some fruits</p>
+              <button class="edit-btn">Edit</button> <button class="delete-btn">Delete</button>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
